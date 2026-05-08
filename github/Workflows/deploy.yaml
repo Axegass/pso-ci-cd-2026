@@ -35,3 +35,5 @@ jobs:
             --port=8080 \
             --memory=512Mi \
             --set-env-vars="MONGODB_URL=${{ secrets.MONGODB_URL }}"
+
+"for CI/CD"
